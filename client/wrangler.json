@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "main": "worker.ts",
+  "compatibility_date": "2025-01-07",
+  "workers_dev": true,
+  "send_metrics": false,
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "EXAMPLE_DO",
+        "class_name": "Example",
+        "script_name": "host"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["Example"]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "name": "bun-wrangler-repro",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "host",
+    "client"
+  ],
+  "scripts": {
+    "clean": "rm -rf node_modules && rm -f bun.lock && bun install --force --save-text-lockfile",
+    "lint": "bun --filter '*' lint",
+    "manypkg": "manypkg check",
+    "ncu": "ncu -i -u -ws"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "@manypkg/cli": "0.23.0",
+    "npm-check-updates": "17.1.13",
+    "typescript": "5.7.2"
+  },
+  "trustedDependencies": [
+    "@biomejs/biome"
+  ]
+}
