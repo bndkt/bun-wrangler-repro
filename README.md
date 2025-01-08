@@ -9,3 +9,13 @@ Now two wrangler instances are running, the one in **client** is connecting to a
 4. Stop the wrangler instance in the `client` directory and run `bun dev-bun` instead.
 
 This is now running `const platform = await getPlatformProxy();` which is supposed to the DO served by the host wrangler as well, but it just hangs.
+
+5. Stop the Bun instance in the `client` directory and run `bun dev-node` instead.
+
+See output from getPlatformProxy(), it works in Node.
+
+```sh
+platform {
+  EXAMPLE_DO: ProxyStub { name: 'DurableObjectNamespace', poisoned: false }
+}
+```

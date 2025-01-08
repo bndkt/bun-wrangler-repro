@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "wrangler dev",
     "dev-bun": "bun .",
+    "dev-node": "node index.js",
     "cf-typegen": "wrangler types --experimental-include-runtime"
   },
   "devDependencies": {
