@@ -9,7 +9,7 @@
     "cf-typegen": "wrangler types --experimental-include-runtime"
   },
   "devDependencies": {
-    "@types/bun": "1.1.17",
-    "wrangler": "3.103.1"
+    "@types/bun": "1.1.18",
+    "wrangler": "3.103.2"
   }
 }
