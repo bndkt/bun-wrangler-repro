@@ -6,10 +6,10 @@
     "dev": "wrangler dev",
     "dev-bun": "bun .",
     "dev-node": "node index.js",
-    "cf-typegen": "wrangler types --experimental-include-runtime"
+    "cf-typegen": "wrangler types"
   },
   "devDependencies": {
     "@types/bun": "1.2.5",
-    "wrangler": "4.0.0-rc.0"
+    "wrangler": "4.0.0"
   }
 }

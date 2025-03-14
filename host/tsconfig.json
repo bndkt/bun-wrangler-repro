@@ -25,6 +25,6 @@
     "noPropertyAccessFromIndexSignature": false,
 
     // Cloudflare
-    "types": ["./.wrangler/types/runtime"]
+    "types": ["worker-configuration.d.ts"]
   }
 }
