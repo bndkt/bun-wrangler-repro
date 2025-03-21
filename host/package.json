@@ -8,6 +8,6 @@
   },
   "devDependencies": {
     "@types/bun": "1.2.5",
-    "wrangler": "4.1.0"
+    "wrangler": "4.3.0"
   }
 }
