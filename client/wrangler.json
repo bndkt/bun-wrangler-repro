@@ -5,7 +5,7 @@
   "durable_objects": {
     "bindings": [
       {
-        "name": "EXAMPLE_DO",
+        "name": "Example",
         "class_name": "Example",
         "script_name": "host"
       }
