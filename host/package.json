@@ -4,10 +4,11 @@
   "type": "module",
   "scripts": {
     "dev": "wrangler dev",
+    "dev-bun": "wrangler dev",
     "cf-typegen": "wrangler types"
   },
   "devDependencies": {
     "@types/bun": "1.2.8",
-    "wrangler": "4.7.1"
+    "wrangler": "4.9.1"
   }
 }
