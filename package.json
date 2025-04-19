@@ -12,7 +12,7 @@
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
     "@manypkg/cli": "0.23.0",
-    "npm-check-updates": "17.1.16",
+    "npm-check-updates": "17.1.18",
     "typescript": "5.8.3"
   },
   "trustedDependencies": ["@biomejs/biome"]

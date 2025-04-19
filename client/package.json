@@ -9,7 +9,7 @@
     "cf-typegen": "wrangler types"
   },
   "devDependencies": {
-    "@types/bun": "1.2.8",
-    "wrangler": "4.9.1"
+    "@types/bun": "1.2.10",
+    "wrangler": "4.12.0"
   }
 }
